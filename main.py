@@ -54,7 +54,7 @@ while True:
 
 
 
-    key = pygame.key.get_pressed()
+    y = pygame.key.get_pressed()
     if key[pygame.K_w] and dirs['W']:
 
         dx, dy = 0, -1
